@@ -19,3 +19,8 @@ All the parallel output from each block are concatenated in a layer and passed o
 The final output is binary classfication. i.e. crack versus no-crack
 
 ![Picture1](https://user-images.githubusercontent.com/48675751/127563014-4cbbff02-0bde-4a65-bf98-ba49ba67a029.png)
+
+
+Deep Mutual Information model (DIM)
+
+Unsupervised learning model for FMC classification task
