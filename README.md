@@ -1,7 +1,6 @@
 # FMC-CNN
-*Classification task: crack detection
+Classification task: crack detection
 
-*Full matrix Capture (FMC)
 
 Full matrix capture (FMC) is a data acquistion technique for array ulstrasonic sensor.
 
@@ -10,7 +9,7 @@ Each element in the array transmit ultrasonic wave and all the element in the ar
 ![Capture](https://user-images.githubusercontent.com/48675751/127565549-1880b857-730a-4a63-a7c9-9b6cacbad1c3.PNG)
 
 
-*FMC-CNN architecture
+FMC-CNN architecture
 
 The designed CNN architecture is aligned with FMC structure. Input is divided into parallel sub-groups and then connected to wrapped convlutional and max pooling layer.
 Weights are shared within the parallel block layer so model can cpature local spatial relationship features that are prominent inside each block.
